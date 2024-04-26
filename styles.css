@@ -1,5 +1,17 @@
 .container {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    height: 960px;
+    width: 960px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.prompt {
+    margin-top: 20px;
+    justify-content: center;
+    align-self: center;
+    height: 50px;
 }
